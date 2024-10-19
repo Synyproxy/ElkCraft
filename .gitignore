@@ -13,6 +13,8 @@ Build/
 *.userosscache
 *.sln.docstates
 
+!Sources/ElkEngine/Dependencies/irrklang/bin/**/*.dll
+
 # Files built by Visual Studio
 *_i.c
 *_p.c
