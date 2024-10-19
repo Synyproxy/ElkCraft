@@ -63,5 +63,5 @@ ipch/
 *.vspx
 *.sap
 
-# Exception for irrklang .dll files
-!Sources/ElkEngine/Dependencies/irrklang/bin/*/*.dll
+# Exception for Dependencies .dll files
+!Sources/ElkEngine/Dependencies/**/**/*.dll
