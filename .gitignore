@@ -13,7 +13,6 @@ Build/
 *.userosscache
 *.sln.docstates
 
-!Sources/ElkEngine/Dependencies/irrklang/bin/**/*.dll
 
 # Files built by Visual Studio
 *_i.c
@@ -63,3 +62,6 @@ ipch/
 *.vsp
 *.vspx
 *.sap
+
+# Exception for irrklang .dll files
+!Sources/ElkEngine/Dependencies/irrklang/bin/*.dll
